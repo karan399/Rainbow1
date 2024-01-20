@@ -1,0 +1,591 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #FFF6F6;
+}
+.navbar {
+    background-color: #FFDFDF;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 1%;
+    height: 100px;
+}
+.logo{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.top-line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.search-contact {
+    display: flex;
+    align-items: center;
+}
+
+.nav-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 8px 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.search-button:hover, .nav-button:hover {
+    background-color: #36c;
+    color: #fff;
+}
+
+.contact-button {
+    background-color: #e74c3c; /* New color for the "Contact" button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 8px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.contact-button:hover {
+    background-color: #d63031; /* Hover color for the "Contact" button */
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 10px 2%;
+    }
+
+    .nav-button, .search-button, .contact-button {
+        padding: 8px 12px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+}
+.productButton{
+    background-color: #186F65;
+}
+.solutionButton{
+    background-color: #F4CE14;
+}
+.referenceButton{
+    background-color: orange;
+}
+.serviceButton{
+    background-color: #DFCCFB;
+}
+.aboutButton{
+    background-color: indigo;
+}
+.contactButton{
+    background-color: #D61355;
+}
+
+
+
+.firstDiv{
+    height: 500px;
+    background-color:#FFDFDF;
+    overflow:auto;
+}
+.teamImg{
+    height: 490px;
+    float: right;
+    padding-top: 5px;
+    margin-right: 150px;
+}
+h1{
+    margin-top: 0px;
+    font-size: 80px;
+    margin-left: 150px;
+    padding-top: 50px;
+}
+.firstDiv p{
+    margin-left: 150px;
+    max-width: 700px;
+
+}
+
+.secondDiv{
+    height: 600px;
+    background-color: #FFF6F6;
+    overflow: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.secondDiv h2{
+    margin-left: 43%;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+hr{
+    height: 2px;
+    background-color: #7752FE;
+    margin-left: 41%;
+    width: 180px;
+}
+.seconddivcontent img{
+    height: 310px;
+    float: right;
+    margin-right: 150px;
+}
+.seconddivcontent h2{
+    margin-left: 100px;
+}
+.seconddivcontent p{
+    margin-left: 100px;
+    max-width: 850px;
+}
+.seconddivcontent hr{
+    height: 2px;
+    background-color: #7752FE;
+    margin-left: 100px;
+    width: 140px;
+}
+
+.thirdDivContnet img{
+    height: 310px;
+    float: right;
+    margin-right: 150px;
+    padding-top: 40px;
+}
+.thirdDivContnet h2{
+    margin-left: 100px;
+}
+.thirdDiv hr{
+    height: 2px;
+    background-color: #7752FE;
+    margin-left: 42%;
+    width: 210px;
+}
+.thirdDivContnet hr{
+    height: 2px;
+    background-color: #7752FE;
+    margin-left: 100px;
+    width: 330px;
+}
+.thirdDivContnet p{
+    margin-left: 100px;
+    max-width: 750px;
+}
+.ourPartener hr{
+    height: 2px;
+    background-color: #7752FE;
+    margin-left: 100px;
+    width: 200px;
+}
+.ourPartener ul{
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+
+
+.ourSpeciality{
+    height: 800px;
+    background-color: wheat;
+    padding-bottom: 150px;
+    padding-top: 100px;
+
+}
+.ourSpeciality h2{
+    margin-left: 43%;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.ourSpeciality hr{
+    height: 2px;
+    background-color: #7752FE;
+    margin-left: 42%;
+    width: 250px;
+}
+.construction img{
+    height:300px;
+    float: top;
+    padding-top: 100px;
+}
+.construction{
+    max-width: 240px;
+}
+.construction h2{
+    margin-left: 0px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+.interior{
+    max-width: 240px;
+}
+.interior img{
+    height:300px;
+    float: top;
+    padding-top: 100px;
+}
+.interior h2{
+    margin-left: 0px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+}
+.repair{
+    max-width: 240px;
+}
+.repair img{
+    height:300px;
+    float: top;
+    padding-top: 100px;
+}
+.repair h2{
+    margin-left: 0px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+
+
+.footer{
+    background-color: #CE5A67;
+    height: 200px;
+    display: flex;
+    justify-content:space-between;
+}
+.socials{
+    margin-left: 70px;
+    padding-top: 50px;
+}
+.socials img{
+    height: 35px;
+    padding-right: 15px;
+}
+.mailUs{
+    padding-top: 50px;
+    padding-right: 40px;
+}
+.companyName{
+    padding-top: 45px;
+}
+.mailto-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Style on hover */
+.mailto-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style on click (active/focus) */
+.mailto-button:active,
+.mailto-button:focus {
+    background-color: #003f81;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add a shadow on click */
+}
+
+
+
+.contactUsBasicInfo{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 170px;
+    padding-bottom: 50px; 
+    margin-bottom: 200px;
+}
+.contactUsBasicInfo>div{
+    max-width: 300px;
+    box-shadow: 10px 10px 10px 10px;
+    color: #f4bca8;
+    min-width: 300px;
+    padding: 20px;
+}
+.contactUsBasicInfo img{
+    height: 70px;
+}
+
+
+.aboutUs1 h1{
+    margin-left: 34%;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+.AboutUs h2{
+    margin-left: 41%;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+.aboutUsContent{
+    padding-left: 40px;
+    padding-right: 40px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.aboutUsContent img{
+    height: 267px;
+    float: right;
+    margin-right: 90px;
+    padding-top: 0px;
+}
+.aboutUsContent p{
+    margin-left: 60px;
+    max-width: 800px;
+}
+.ourMission h3{
+    margin-left: 60px;
+    max-width: 800px;
+}
+.ourMission{
+    padding-left: 40px;
+    padding-right: 40px;
+    height: auto;
+    margin-top: 10px;
+}
+.ourMission img{
+    height: 310px;
+    float: right;
+    margin-right: 90px;
+    padding-top: 122px;
+}
+.ourMission p{
+    margin-left: 60px;
+    max-width: 800px;
+}
+.ourMission ul{
+    margin-left: 60px;
+    max-width: 800px;
+}
+
+
+.workProfile h1{
+    margin-left: 30%;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+/* Style for the interior design section */
+.interiors {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 310px;
+    
+}
+
+/* Style for the image within the interior design section */
+.interiors img {
+    height:300px ;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    float: right;
+    margin-right: 100px;
+}
+
+/* Style for the heading (h2) within the interior design section */
+.interiors h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    margin-left: 20px;
+}
+
+/* Style for paragraphs (p) within the interior design section */
+.interiors p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #666;
+    max-width: 700px;
+}
+.signBoard {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 310px;
+    
+}
+
+/* Style for the image within the interior design section */
+.signBoard img {
+    height:300px ;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    float: left;
+    margin-right: 100px;
+}
+
+/* Style for the heading (h2) within the interior design section */
+.signBoard h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    margin-left: 20px;
+}
+
+/* Style for paragraphs (p) within the interior design section */
+.signBoard p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #666;
+    max-width: 1200px;
+}
+/* Style for the interior design section */
+.constructions {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 310px;
+    
+}
+
+/* Style for the image within the interior design section */
+.constructions img {
+    height:300px ;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    float: right;
+    margin-right: 100px;
+}
+
+/* Style for the heading (h2) within the interior design section */
+.constructions h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    margin-left: 20px;
+}
+
+/* Style for paragraphs (p) within the interior design section */
+.constructions p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #666;
+    max-width: 700px;
+}
+.maintance {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 310px;
+    
+}
+
+/* Style for the image within the interior design section */
+.maintance img {
+    height:300px ;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    float: left;
+    margin-right: 100px;
+}
+
+/* Style for the heading (h2) within the interior design section */
+.maintance h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    margin-left: 20px;
+}
+
+/* Style for paragraphs (p) within the interior design section */
+.maintance p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #666;
+    max-width: 1200px;
+}
+.buildingMantance {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 310px;
+    
+}
+
+/* Style for the image within the interior design section */
+.buildingMantance img {
+    height:300px ;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    float: right;
+    margin-right: 100px;
+}
+
+/* Style for the heading (h2) within the interior design section */
+.buildingMantance h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    margin-left: 20px;
+}
+
+/* Style for paragraphs (p) within the interior design section */
+.buildingMantance p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #666;
+    max-width: 700px;}
+
+
+.portfolio{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    }
+.portfolio img{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
+.port{
+    width: 100%;
+    margin: 0px;
+}
